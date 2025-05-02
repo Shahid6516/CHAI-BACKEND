@@ -18,5 +18,11 @@ router.route("/register").post(
     registerUser
 )
 
+router.post("/test-upload", upload.single("avatar"), async (req, res) => {
+    const { path } = req.file;
+    const result = await uploadOnCloudinary(path);
+    res.json(result);
+  });
+  
 
  export default router
