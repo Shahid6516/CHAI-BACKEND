@@ -42,8 +42,7 @@ JWT_SECRET=your_jwt_secret_key
 - [x] Middleware and error handling
 - [x] File uploads using multer
 - [x] Custom helper utilities
-- [ ] Email verification (coming soon)
-- [ ] Production deployment setup
+
 
 ---
 
@@ -74,7 +73,7 @@ JWT_SECRET=your_jwt_secret_key
 
 ## ✨ Author
 
-Made with chai and ❤️ by Mohammad Shahid (https://github.com/Shahid6516)
+Made with chai and ❤️ by Mohammad Shahid https://github.com/Shahid6516
 
 ---
 
